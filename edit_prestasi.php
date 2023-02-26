@@ -22,7 +22,7 @@ include 'koneksi.php';
           echo "<script>alert('Data tidak ditemukan pada database');window.location='dashboard.php';</script>";
        }
   } else {
-    // apabila tidak ada data GET id pada akan di redirect ke index.php
+    // apabila tidak ada data GET id pada akan di redirect ke dashboard.php
     echo "<script>alert('Masukkan data id.');window.location='dashboard.php';</script>";
   }         
   ?>
@@ -78,7 +78,7 @@ include 'koneksi.php';
   <body>
       <form method="POST" action="proses_edit_prestasi.php" enctype="multipart/form-data" >
       <section class="base">
-        <!-- menampung nilai id produk yang akan di edit -->
+        <!-- menampung nilai id yang akan di edit -->
         <input name="id" value="<?php echo $data['id']; ?>"  hidden />
         <div>
           <label>Prestasi</label>
