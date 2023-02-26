@@ -65,7 +65,7 @@
     </thead>
     <tbody>
       <?php
-      // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
+      // jalankan query untuk menampilkan semua data 
       $query = "SELECT * FROM tb_tentangsaya ORDER BY id_tentangSaya ASC";
       $result = mysqli_query($koneksi, $query);
       //mengecek apakah ada error ketika menjalankan query
@@ -74,7 +74,7 @@
             " - ".mysqli_error($koneksi));
       }
 
-      //buat perulangan untuk element tabel dari data mahasiswa
+      //buat perulangan untuk element tabel dari data 
       $no = 1; //variabel untuk membuat nomor urut
       // hasil query akan disimpan dalam variabel $data dalam bentuk array
       // kemudian dicetak dengan perulangan while
@@ -122,7 +122,7 @@
     </thead>
     <tbody>
       <?php
-      // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
+      // jalankan query untuk menampilkan semua data 
       $queryP = "SELECT * FROM tb_projek ORDER BY id ASC";
       $resultP = mysqli_query($koneksi, $queryP);
       //mengecek apakah ada error ketika menjalankan query
@@ -131,7 +131,7 @@
             " - ".mysqli_error($koneksi));
       }
 
-      //buat perulangan untuk element tabel dari data mahasiswa
+      //buat perulangan untuk element tabel dari data
       $no = 1; //variabel untuk membuat nomor urut
       // hasil query akan disimpan dalam variabel $data dalam bentuk array
       // kemudian dicetak dengan perulangan while
@@ -174,7 +174,7 @@
     </thead>
     <tbody>
       <?php
-      // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
+      // jalankan query untuk menampilkan semua data
       $queryP = "SELECT * FROM tb_prestasi ORDER BY id ASC";
       $resultP = mysqli_query($koneksi, $queryP);
       //mengecek apakah ada error ketika menjalankan query
@@ -183,7 +183,7 @@
             " - ".mysqli_error($koneksi));
       }
 
-      //buat perulangan untuk element tabel dari data mahasiswa
+      //buat perulangan untuk element tabel 
       $no = 1; //variabel untuk membuat nomor urut
       // hasil query akan disimpan dalam variabel $data dalam bentuk array
       // kemudian dicetak dengan perulangan while
