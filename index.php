@@ -4,7 +4,11 @@
 
 
 <?php
+<<<<<<< HEAD
 // jalankan query untuk menampilkan semua data diurutkan berdasarkan tentang saya
+=======
+
+>>>>>>> 052750c4faf2a880fce091b47a9dfc036d95ecad
 $query = "SELECT * FROM tb_tentangsaya ORDER BY id_tentangSaya ASC";
 $result = mysqli_query($koneksi, $query);
 
@@ -13,14 +17,22 @@ $row = mysqli_fetch_assoc($result);
 ?>
 
 <?php
+<<<<<<< HEAD
   // jalankan query untuk menampilkan semua data diurutkan berdasarkan proyek
+=======
+
+>>>>>>> 052750c4faf2a880fce091b47a9dfc036d95ecad
   $queryP = "SELECT * FROM tb_projek ORDER BY id ASC";
   $resultP = mysqli_query($koneksi, $queryP);
   
 ?>
 
 <?php
+<<<<<<< HEAD
   // jalankan query untuk menampilkan semua data diurutkan berdasarkan prestasi
+=======
+  
+>>>>>>> 052750c4faf2a880fce091b47a9dfc036d95ecad
   $queryPr = "SELECT * FROM tb_prestasi ORDER BY id ASC";
   $resultPr = mysqli_query($koneksi, $queryPr);
   
