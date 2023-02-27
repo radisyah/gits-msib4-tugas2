@@ -15,7 +15,7 @@ include 'koneksi.php';
         die ("Query gagal dijalankan: ".mysqli_error($koneksi).
                           " - ".mysqli_error($koneksi));
   } else {
-    //tampil alert dan akan redirect ke halaman index.php
-    //silahkan ganti index.php sesuai halaman yang akan dituju
+    //tampil alert dan akan redirect ke halaman dashboard.php
+    //silahkan ganti dashboard.php sesuai halaman yang akan dituju
       echo "<script>alert('Data berhasil diubah.');window.location='dashboard.php';</script>";
   }

@@ -4,7 +4,7 @@
 
 
 <?php
-// jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
+// jalankan query untuk menampilkan semua data diurutkan berdasarkan tentang saya
 $query = "SELECT * FROM tb_tentangsaya ORDER BY id_tentangSaya ASC";
 $result = mysqli_query($koneksi, $query);
 
@@ -13,14 +13,14 @@ $row = mysqli_fetch_assoc($result);
 ?>
 
 <?php
-  // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
+  // jalankan query untuk menampilkan semua data diurutkan berdasarkan proyek
   $queryP = "SELECT * FROM tb_projek ORDER BY id ASC";
   $resultP = mysqli_query($koneksi, $queryP);
   
 ?>
 
 <?php
-  // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
+  // jalankan query untuk menampilkan semua data diurutkan berdasarkan prestasi
   $queryPr = "SELECT * FROM tb_prestasi ORDER BY id ASC";
   $resultPr = mysqli_query($koneksi, $queryPr);
   

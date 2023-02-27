@@ -29,8 +29,8 @@ if($foto != "") {
                       die ("Query gagal dijalankan: ".mysqli_errno($koneksi).
                            " - ".mysqli_error($koneksi));
                   } else {
-                    //tampil alert dan akan redirect ke halaman index.php
-                    //silahkan ganti index.php sesuai halaman yang akan dituju
+                    //tampil alert dan akan redirect ke halaman dashboard.php
+                    //silahkan ganti dashboard.php sesuai halaman yang akan dituju
                     echo "<script>alert('Data berhasil ditambah.');window.location='dashboard.php';</script>";
                   }
 
@@ -46,8 +46,8 @@ if($foto != "") {
                 die ("Query gagal dijalankan: ".mysqli_errno($koneksi).
                       " - ".mysqli_error($koneksi));
             } else {
-              //tampil alert dan akan redirect ke halaman index.php
-              //silahkan ganti index.php sesuai halaman yang akan dituju
+              //tampil alert dan akan redirect ke halaman dashboard.php
+              //silahkan ganti dashboard.php sesuai halaman yang akan dituju
               echo "<script>alert('Data berhasil ditambah.');window.location='dashboard.php';</script>";
             }
 }
